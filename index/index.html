@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets.css" />
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+  
+        <form action="/submit" method="POST">
+          <fieldset>
+            <legend>Informações de Contato</legend>
+  
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Digite seu nome"
+            />
+            <br> <br> <br>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Digite seu email"
+            />
+            <br> <br> <br>
+            <label for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="Telefone"
+              required
+              placeholder="Digite seu telefone"
+            />
+            <br><br>
+            <label for="radio">Deseja receber nossas novidades?</label>
+            <br>
+             
+            <input type="radio" name="novidades?" value="Sim"/> Sim<br/>
+            <input type="radio" name="novidades?" value="Não"/> Não        
+<br><br>
+            <button type="submit">Enviar</button>
+      </form>
+    </main>
+</body>
+</html>

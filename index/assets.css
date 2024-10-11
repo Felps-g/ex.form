@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 17px;
+    font-family: 'Alice', sans-serif;
+  }
+  body {
+    background-color: #ffffff;
+  }
+  main {
+    width: 50%; 
+    height: 600px; 
+    background-color: #65a8e7; 
+    margin: 0 auto;
+    text-align: center;
+  }
+  
